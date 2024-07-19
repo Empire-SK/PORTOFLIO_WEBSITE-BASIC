@@ -15,6 +15,7 @@
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 0;
   }
   @media (min-width: 768px) {
     .carousel-item {
@@ -60,6 +61,42 @@
 .fa-brands:hover{
   color: white;
 }
+
 .slash{
   color: white;
+}
+
+ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  padding-left: 37px;
+}
+
+ul.social > li {
+  display: inline-block;
+  margin-right: 40;
+}
+
+ul.social > li > a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 36px;
+  background-color: #222222;
+  color: #fff;
+  margin: 0 3px 3px 0;
+}
+
+ul.social > li > a:hover {
+  text-decoration: none;
+}
+.iti {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: 0;
 }
